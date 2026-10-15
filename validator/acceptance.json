@@ -1,0 +1,69 @@
+{
+  "frozen_before_execution": true,
+  "freeze_date": "2026-10-14",
+  "author": "Book Assistant preparation for Lynn Walker",
+  "synthetic": true,
+  "interpretation": "Conformance walkthrough, not independent benchmark or model-mediated comparison. Expectations are derived from the human-readable contract before observed execution.",
+  "cases": {
+    "ordinary-a": {
+      "expected_dispositions": [
+        "SUPPORTED",
+        "SUPPORTED"
+      ],
+      "expected_exit_code": 0
+    },
+    "ordinary-b": {
+      "expected_dispositions": [
+        "SUPPORTED",
+        "NOT_APPLICABLE"
+      ],
+      "expected_exit_code": 0
+    },
+    "boundary-a": {
+      "expected_dispositions": [
+        "FAILED",
+        "SUPPORTED"
+      ],
+      "expected_exit_code": 1
+    },
+    "boundary-b": {
+      "expected_dispositions": [
+        "MISSING",
+        "SUPPORTED"
+      ],
+      "expected_exit_code": 1
+    },
+    "missing-a": {
+      "expected_dispositions": [
+        "MISSING",
+        "SUPPORTED"
+      ],
+      "expected_exit_code": 1
+    },
+    "conflicting-b": {
+      "expected_dispositions": [
+        "FAILED",
+        "SUPPORTED"
+      ],
+      "expected_exit_code": 1
+    },
+    "mismatch-a": {
+      "expected_dispositions": [
+        "STALE_MISMATCHED",
+        "SUPPORTED"
+      ],
+      "expected_exit_code": 1
+    },
+    "mismatch-b": {
+      "expected_dispositions": [
+        "STALE_MISMATCHED",
+        "SUPPORTED"
+      ],
+      "expected_exit_code": 1
+    },
+    "invalid-unknown-check": {
+      "expected_dispositions": [],
+      "expected_exit_code": 2
+    }
+  }
+}

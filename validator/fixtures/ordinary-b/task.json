@@ -1,0 +1,18 @@
+{
+  "task_id": "prepare-release-note",
+  "artifact": {
+    "id": "release-note",
+    "version": "1.2"
+  },
+  "checks": [
+    {
+      "id": "tests",
+      "applicable": true
+    },
+    {
+      "id": "citations",
+      "applicable": false,
+      "reason": "Task declares no citations required for this synthetic internal note."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "id": "e-tests",
+    "task_id": "prepare-release-note",
+    "check_id": "tests",
+    "artifact": {
+      "id": "release-note",
+      "version": "1.2"
+    },
+    "outcome": "passed",
+    "basis": "Synthetic fixture; no external test or release is asserted."
+  }
+]

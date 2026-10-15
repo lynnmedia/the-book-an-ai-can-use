@@ -1,0 +1,14 @@
+[
+  {
+    "check_id": "tests",
+    "evidence_ids": [
+      "e-tests"
+    ]
+  },
+  {
+    "check_id": "citations",
+    "evidence_ids": [
+      "e-citations"
+    ]
+  }
+]

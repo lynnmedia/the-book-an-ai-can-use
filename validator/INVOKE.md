@@ -1,0 +1,3 @@
+# Machine usable invocation
+
+Use only for checking supplied task/check/evidence references. Read CONTRACT.md before application. Obtain the expected artifact ID/version and applicability from the declared task, not from a claim of completion. Invoke `python3 validate.py TASK CLAIMS EVIDENCE` with three explicit local JSON paths. Preserve stdout, stderr and exit code. Present dispositions verbatim with their cited evidence IDs. Do not translate `SUPPORTED` to independently verified, release-ready or externally performed. On exit 2, correct or clarify the input before rerunning. On exit 1, request or replace the affected evidence; do not invent it. No installation, external communication, model call, or release action is part of this capability.
